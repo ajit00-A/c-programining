@@ -23,6 +23,18 @@ printf(" marks= %d",marks);
 
 percentage=(marks/300.0)*100;
 printf("percentage= %f",percentage);
+if(percentage>=60){
+printf("first division");
+}
+else if(percentage>=50&&percentage<60){
+printf("2nd division");
+}
+else if(percentage>=40&&percentage<50){
+printf("3rd division");
+}
+else{
+printf("Fail");
+}
 
 
 
